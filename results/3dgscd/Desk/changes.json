@@ -1,0 +1,190 @@
+{
+  "before": "data/3dgscd/Desk/rgb",
+  "after": "results/3dgscd/Desk/split/after",
+  "metric_scale": 0.6070533394813538,
+  "frames_per_video": 20,
+  "changes": [
+    {
+      "id": 1,
+      "type": "moved",
+      "label": "mustard bottle",
+      "text": "The mustard bottle moved 0.26 m (0.19 m left, 0.17 m further away).",
+      "before": {
+        "center_m": [
+          0.14100000262260437,
+          -0.11400000005960464,
+          -0.0949999988079071
+        ],
+        "size_m": [
+          0.09099999815225601,
+          0.18700000643730164,
+          0.11299999803304672
+        ],
+        "label_scores": [
+          [
+            "sauce bottle",
+            0.683
+          ],
+          [
+            "squeeze bottle",
+            0.273
+          ],
+          [
+            "bottle",
+            0.024
+          ]
+        ]
+      },
+      "after": {
+        "center_m": [
+          -0.05000000074505806,
+          -0.1379999965429306,
+          0.07500000298023224
+        ],
+        "size_m": [
+          0.06700000166893005,
+          0.17399999499320984,
+          0.10100000351667404
+        ],
+        "label_scores": [
+          [
+            "sauce bottle",
+            0.888
+          ],
+          [
+            "squeeze bottle",
+            0.023
+          ],
+          [
+            "bottle",
+            0.017
+          ]
+        ]
+      },
+      "distance_m": 0.257,
+      "clip_similarity": 0.815
+    },
+    {
+      "id": 2,
+      "type": "moved",
+      "label": "spam",
+      "text": "The spam moved 0.20 m (0.18 m closer).",
+      "before": {
+        "center_m": [
+          0.15700000524520874,
+          -0.07599999755620956,
+          0.2709999978542328
+        ],
+        "size_m": [
+          0.1080000028014183,
+          0.07100000232458115,
+          0.12300000339746475
+        ],
+        "label_scores": [
+          [
+            "tin can",
+            0.615
+          ],
+          [
+            "container",
+            0.153
+          ],
+          [
+            "can",
+            0.107
+          ]
+        ]
+      },
+      "after": {
+        "center_m": [
+          0.06800000369548798,
+          -0.0949999988079071,
+          0.09000000357627869
+        ],
+        "size_m": [
+          0.08699999749660492,
+          0.0729999989271164,
+          0.11299999803304672
+        ],
+        "label_scores": [
+          [
+            "tin can",
+            0.773
+          ],
+          [
+            "container",
+            0.094
+          ],
+          [
+            "can",
+            0.051
+          ]
+        ]
+      },
+      "distance_m": 0.203,
+      "clip_similarity": 0.918
+    },
+    {
+      "id": 3,
+      "type": "removed",
+      "label": "bowl",
+      "text": "The bowl 0.0 m ahead, centre (+0.1 m), on the table was removed.",
+      "before": {
+        "center_m": [
+          0.13500000536441803,
+          -0.05299999937415123,
+          0.0430000014603138
+        ],
+        "size_m": [
+          0.06599999964237213,
+          0.05400000140070915,
+          0.16699999570846558
+        ],
+        "label_scores": [
+          [
+            "plastic tub",
+            0.113
+          ],
+          [
+            "monitor stand",
+            0.106
+          ],
+          [
+            "bowl",
+            0.057
+          ]
+        ]
+      }
+    }
+  ],
+  "settings": {
+    "before": "data/3dgscd/Desk/rgb",
+    "after": "results/3dgscd/Desk/split/after",
+    "out": "results/3dgscd/Desk",
+    "frames": 20,
+    "model": "depth-anything/DA3-LARGE-1.1",
+    "scale": 0.6070533394813538,
+    "stride": 2,
+    "conf_pct": 30,
+    "tau_abs": 0.009814677238464355,
+    "tau_rel": 0.05,
+    "namer": "vlm",
+    "objects": 0,
+    "obj_sim": 0.75,
+    "obj_min_area": 0.0005,
+    "obj_max_area": 0.08,
+    "app_pct": 0,
+    "min_free": 2.0,
+    "min_votes": 2,
+    "free_ratio": 0.7,
+    "voxel": 0.005888806343078613,
+    "min_voxels": 25,
+    "min_frames": 2,
+    "min_extent": 0.014722015857696533,
+    "max_objects": 12,
+    "query": "results/3dgscd/Desk/split/query",
+    "match_sim": 0.7,
+    "conf_thr": 3.3116531372070312,
+    "has_floor": true
+  }
+}

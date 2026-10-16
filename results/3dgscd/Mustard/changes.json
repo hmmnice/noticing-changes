@@ -1,0 +1,98 @@
+{
+  "before": "data/3dgscd/Mustard/rgb",
+  "after": "results/3dgscd/Mustard/split/after",
+  "metric_scale": 0.5325915217399597,
+  "frames_per_video": 20,
+  "changes": [
+    {
+      "id": 1,
+      "type": "moved",
+      "label": "mustard bottle",
+      "text": "The mustard bottle moved 0.27 m (0.27 m right).",
+      "before": {
+        "center_m": [
+          0.029999999329447746,
+          -0.11800000071525574,
+          0.03200000151991844
+        ],
+        "size_m": [
+          0.11599999666213989,
+          0.1860000044107437,
+          0.10199999809265137
+        ],
+        "label_scores": [
+          [
+            "squeeze bottle",
+            0.512
+          ],
+          [
+            "sauce bottle",
+            0.464
+          ],
+          [
+            "container",
+            0.01
+          ]
+        ]
+      },
+      "after": {
+        "center_m": [
+          0.29600000381469727,
+          -0.17000000178813934,
+          -0.013000000268220901
+        ],
+        "size_m": [
+          0.15000000596046448,
+          0.0560000017285347,
+          0.19699999690055847
+        ],
+        "label_scores": [
+          [
+            "sauce bottle",
+            0.895
+          ],
+          [
+            "squeeze bottle",
+            0.1
+          ],
+          [
+            "container",
+            0.001
+          ]
+        ]
+      },
+      "distance_m": 0.274,
+      "clip_similarity": 0.913
+    }
+  ],
+  "settings": {
+    "before": "data/3dgscd/Mustard/rgb",
+    "after": "results/3dgscd/Mustard/split/after",
+    "out": "results/3dgscd/Mustard",
+    "frames": 20,
+    "model": "depth-anything/DA3-LARGE-1.1",
+    "scale": 0.5325915217399597,
+    "stride": 2,
+    "conf_pct": 30,
+    "tau_abs": 0.009756582379341126,
+    "tau_rel": 0.05,
+    "namer": "vlm",
+    "objects": 0,
+    "obj_sim": 0.75,
+    "obj_min_area": 0.0005,
+    "obj_max_area": 0.08,
+    "app_pct": 0,
+    "min_free": 2.0,
+    "min_votes": 2,
+    "free_ratio": 0.7,
+    "voxel": 0.005853949427604675,
+    "min_voxels": 25,
+    "min_frames": 2,
+    "min_extent": 0.014634873569011688,
+    "max_objects": 12,
+    "query": "results/3dgscd/Mustard/split/query",
+    "match_sim": 0.7,
+    "conf_thr": 1.3063923120498657,
+    "has_floor": true
+  }
+}

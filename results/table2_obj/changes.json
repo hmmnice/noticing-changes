@@ -1,0 +1,569 @@
+{
+  "before": "data/set2/before.mp4",
+  "after": "data/set2/after.mp4",
+  "metric_scale": 1.158599615097046,
+  "frames_per_video": 20,
+  "changes": [
+    {
+      "id": 1,
+      "type": "moved",
+      "label": "wallet",
+      "text": "The wallet moved 0.48 m (0.47 m closer).",
+      "before": {
+        "center_m": [
+          0.08699999749660492,
+          -0.027000000700354576,
+          0.2290000021457672
+        ],
+        "size_m": [
+          0.13699999451637268,
+          0.07599999755620956,
+          0.1459999978542328
+        ],
+        "label_scores": [
+          [
+            "handbag",
+            0.588
+          ],
+          [
+            "packet",
+            0.235
+          ],
+          [
+            "bag",
+            0.088
+          ]
+        ]
+      },
+      "after": {
+        "center_m": [
+          0.15600000321865082,
+          -0.05400000140070915,
+          -0.24300000071525574
+        ],
+        "size_m": [
+          0.15299999713897705,
+          0.061000000685453415,
+          0.15600000321865082
+        ],
+        "label_scores": [
+          [
+            "handbag",
+            0.575
+          ],
+          [
+            "packet",
+            0.229
+          ],
+          [
+            "chewing gum pack",
+            0.064
+          ]
+        ]
+      },
+      "distance_m": 0.479,
+      "clip_similarity": 0.939
+    },
+    {
+      "id": 2,
+      "type": "moved",
+      "label": "water bottle",
+      "text": "The water bottle moved 0.46 m (0.15 m left, 0.43 m further away).",
+      "before": {
+        "center_m": [
+          0.29100000858306885,
+          -0.11999999731779099,
+          -0.15700000524520874
+        ],
+        "size_m": [
+          0.10400000214576721,
+          0.2630000114440918,
+          0.09200000017881393
+        ],
+        "label_scores": [
+          [
+            "water bottle",
+            0.848
+          ],
+          [
+            "bottle",
+            0.116
+          ],
+          [
+            "squeeze bottle",
+            0.024
+          ]
+        ]
+      },
+      "after": {
+        "center_m": [
+          0.14000000059604645,
+          -0.19599999487400055,
+          0.2709999978542328
+        ],
+        "size_m": [
+          0.09200000017881393,
+          0.27799999713897705,
+          0.0949999988079071
+        ],
+        "label_scores": [
+          [
+            "water bottle",
+            0.934
+          ],
+          [
+            "bottle",
+            0.057
+          ],
+          [
+            "can",
+            0.003
+          ]
+        ]
+      },
+      "distance_m": 0.46,
+      "clip_similarity": 0.928
+    },
+    {
+      "id": 3,
+      "type": "moved",
+      "label": "watch",
+      "text": "The watch moved 0.36 m (0.35 m further away).",
+      "before": {
+        "center_m": [
+          0.12700000405311584,
+          -0.026000000536441803,
+          -0.23199999332427979
+        ],
+        "size_m": [
+          0.1080000028014183,
+          0.05299999937415123,
+          0.0989999994635582
+        ],
+        "label_scores": [
+          [
+            "clock",
+            0.426
+          ],
+          [
+            "container",
+            0.12
+          ],
+          [
+            "small box",
+            0.041
+          ]
+        ]
+      },
+      "after": {
+        "center_m": [
+          0.22499999403953552,
+          -0.03700000047683716,
+          0.11500000208616257
+        ],
+        "size_m": [
+          0.12200000137090683,
+          0.07800000160932541,
+          0.1080000028014183
+        ],
+        "label_scores": [
+          [
+            "clock",
+            0.471
+          ],
+          [
+            "container",
+            0.038
+          ],
+          [
+            "can",
+            0.034
+          ]
+        ]
+      },
+      "distance_m": 0.36,
+      "clip_similarity": 0.913
+    },
+    {
+      "id": 4,
+      "type": "removed",
+      "label": "phone case",
+      "text": "The phone case -0.0 m ahead, centre (+0.2 m), on the table was removed.",
+      "before": {
+        "center_m": [
+          0.19099999964237213,
+          -0.009999999776482582,
+          -0.020999999716877937
+        ],
+        "size_m": [
+          0.23899999260902405,
+          0.0729999989271164,
+          0.1940000057220459
+        ],
+        "label_scores": [
+          [
+            "tablet",
+            0.302
+          ],
+          [
+            "chewing gum pack",
+            0.257
+          ],
+          [
+            "small box",
+            0.202
+          ]
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "type": "removed",
+      "label": "foot pedal",
+      "text": "The foot pedal 0.3 m ahead, right (+0.4 m), on the table was removed.",
+      "before": {
+        "center_m": [
+          0.3790000081062317,
+          -0.0020000000949949026,
+          0.27799999713897705
+        ],
+        "size_m": [
+          0.16099999845027924,
+          0.052000001072883606,
+          0.11800000071525574
+        ],
+        "label_scores": [
+          [
+            "monitor stand",
+            0.504
+          ],
+          [
+            "game controller",
+            0.081
+          ],
+          [
+            "skateboard",
+            0.045
+          ]
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "type": "removed",
+      "label": "plastic cap",
+      "text": "The plastic cap 0.1 m ahead, right (+0.4 m), on the table was removed.",
+      "before": {
+        "center_m": [
+          0.36899998784065247,
+          -0.023000000044703484,
+          0.07800000160932541
+        ],
+        "size_m": [
+          0.06800000369548798,
+          0.08900000154972076,
+          0.07500000298023224
+        ],
+        "label_scores": [
+          [
+            "plastic tub",
+            0.331
+          ],
+          [
+            "cone",
+            0.213
+          ],
+          [
+            "sauce bottle",
+            0.129
+          ]
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "type": "removed",
+      "label": "flashlight",
+      "text": "The flashlight -0.3 m ahead, right (+0.4 m), on the table was removed.",
+      "before": {
+        "center_m": [
+          0.4230000078678131,
+          -0.003000000026077032,
+          -0.29499998688697815
+        ],
+        "size_m": [
+          0.16099999845027924,
+          0.017000000923871994,
+          0.06199999898672104
+        ],
+        "label_scores": [
+          [
+            "packet",
+            0.161
+          ],
+          [
+            "lamp",
+            0.076
+          ],
+          [
+            "floor lamp",
+            0.059
+          ]
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "removed",
+      "label": "monitor",
+      "text": "The monitor 0.1 m ahead, right (+0.6 m), 0.1 m above the table was removed.",
+      "before": {
+        "center_m": [
+          0.5720000267028809,
+          -0.14900000393390656,
+          0.06400000303983688
+        ],
+        "size_m": [
+          0.029999999329447746,
+          0.06599999964237213,
+          0.20399999618530273
+        ],
+        "label_scores": [
+          [
+            "computer monitor",
+            0.315
+          ],
+          [
+            "monitor stand",
+            0.152
+          ],
+          [
+            "phone",
+            0.104
+          ]
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "type": "removed",
+      "label": "monitor",
+      "text": "The monitor -0.2 m ahead, right (+0.6 m), on the table was removed.",
+      "before": {
+        "center_m": [
+          0.5669999718666077,
+          -0.15800000727176666,
+          -0.2150000035762787
+        ],
+        "size_m": [
+          0.04800000041723251,
+          0.22300000488758087,
+          0.20100000500679016
+        ],
+        "label_scores": [
+          [
+            "hammer",
+            0.133
+          ],
+          [
+            "ladder",
+            0.071
+          ],
+          [
+            "scissors",
+            0.066
+          ]
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "type": "added",
+      "label": "pills",
+      "text": "A pills appeared -0.1 m ahead, centre (+0.1 m), on the table.",
+      "after": {
+        "center_m": [
+          0.08299999684095383,
+          -0.01899999938905239,
+          -0.07999999821186066
+        ],
+        "size_m": [
+          0.13099999725818634,
+          0.05299999937415123,
+          0.1379999965429306
+        ],
+        "label_scores": [
+          [
+            "chewing gum pack",
+            0.45
+          ],
+          [
+            "packet",
+            0.337
+          ],
+          [
+            "tablet",
+            0.179
+          ]
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "type": "added",
+      "label": "usb drive",
+      "text": "A usb drive appeared -0.0 m ahead, right (+0.4 m), on the table.",
+      "after": {
+        "center_m": [
+          0.38199999928474426,
+          -0.026000000536441803,
+          -0.004000000189989805
+        ],
+        "size_m": [
+          0.10100000351667404,
+          0.061000000685453415,
+          0.15800000727176666
+        ],
+        "label_scores": [
+          [
+            "remote control",
+            0.272
+          ],
+          [
+            "game controller",
+            0.092
+          ],
+          [
+            "monitor stand",
+            0.086
+          ]
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "type": "added",
+      "label": "phone case",
+      "text": "A phone case appeared 0.1 m ahead, centre (+0.1 m), on the table.",
+      "after": {
+        "center_m": [
+          0.06199999898672104,
+          -0.03500000014901161,
+          0.06499999761581421
+        ],
+        "size_m": [
+          0.13300000131130219,
+          0.052000001072883606,
+          0.08799999952316284
+        ],
+        "label_scores": [
+          [
+            "phone",
+            0.559
+          ],
+          [
+            "packet",
+            0.148
+          ],
+          [
+            "small box",
+            0.048
+          ]
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "type": "added",
+      "label": "milk bottle",
+      "text": "A milk bottle appeared 0.3 m ahead, right (+0.4 m), on the table.",
+      "after": {
+        "center_m": [
+          0.367000013589859,
+          -0.10400000214576721,
+          0.28999999165534973
+        ],
+        "size_m": [
+          0.06199999898672104,
+          0.24500000476837158,
+          0.12800000607967377
+        ],
+        "label_scores": [
+          [
+            "computer mouse",
+            0.19
+          ],
+          [
+            "plastic tub",
+            0.151
+          ],
+          [
+            "tape",
+            0.096
+          ]
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "type": "added",
+      "label": "lighter",
+      "text": "A lighter appeared -0.3 m ahead, right (+0.4 m), on the table.",
+      "after": {
+        "center_m": [
+          0.42500001192092896,
+          -0.013000000268220901,
+          -0.3330000042915344
+        ],
+        "size_m": [
+          0.12999999523162842,
+          0.02500000037252903,
+          0.13300000131130219
+        ],
+        "label_scores": [
+          [
+            "remote control",
+            0.121
+          ],
+          [
+            "game controller",
+            0.102
+          ],
+          [
+            "computer mouse",
+            0.079
+          ]
+        ]
+      }
+    }
+  ],
+  "settings": {
+    "before": "data/set2/before.mp4",
+    "after": "data/set2/after.mp4",
+    "out": "results/table2_obj",
+    "frames": 20,
+    "model": "depth-anything/DA3-LARGE-1.1",
+    "scale": 1.158599615097046,
+    "stride": 2,
+    "conf_pct": 30,
+    "tau_abs": 0.020201404094696045,
+    "tau_rel": 0.05,
+    "namer": "vlm",
+    "objects": 1,
+    "obj_sim": 0.75,
+    "obj_min_area": 0.0005,
+    "obj_max_area": 0.08,
+    "app_pct": 0,
+    "min_free": 2.0,
+    "min_votes": 2,
+    "free_ratio": 0.7,
+    "voxel": 0.012120842456817627,
+    "min_voxels": 25,
+    "min_frames": 2,
+    "min_extent": 0.030302106142044066,
+    "max_objects": 12,
+    "match_sim": 0.7,
+    "conf_thr": 3.7093400955200195,
+    "has_floor": true
+  }
+}

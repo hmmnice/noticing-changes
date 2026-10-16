@@ -1,0 +1,221 @@
+{
+  "before": "data/set2/before.mp4",
+  "after": "data/set2/after.mp4",
+  "metric_scale": 1.158599615097046,
+  "frames_per_video": 20,
+  "changes": [
+    {
+      "id": 1,
+      "type": "moved",
+      "label": "water bottle",
+      "text": "The water bottle moved 0.46 m (0.16 m left, 0.43 m further away).",
+      "before": {
+        "center_m": [
+          0.3019999861717224,
+          -0.19599999487400055,
+          -0.16300000250339508
+        ],
+        "size_m": [
+          0.10000000149011612,
+          0.19200000166893005,
+          0.09200000017881393
+        ],
+        "label_scores": [
+          [
+            "water bottle",
+            0.797
+          ],
+          [
+            "bottle",
+            0.162
+          ],
+          [
+            "squeeze bottle",
+            0.029
+          ]
+        ]
+      },
+      "after": {
+        "center_m": [
+          0.14100000262260437,
+          -0.2029999941587448,
+          0.27000001072883606
+        ],
+        "size_m": [
+          0.09200000017881393,
+          0.23999999463558197,
+          0.0949999988079071
+        ],
+        "label_scores": [
+          [
+            "water bottle",
+            0.925
+          ],
+          [
+            "bottle",
+            0.063
+          ],
+          [
+            "squeeze bottle",
+            0.004
+          ]
+        ]
+      },
+      "distance_m": 0.462,
+      "clip_similarity": 0.94
+    },
+    {
+      "id": 2,
+      "type": "removed",
+      "label": "monitor",
+      "text": "The monitor 0.1 m ahead, right (+0.6 m), 0.1 m above the table was removed.",
+      "before": {
+        "center_m": [
+          0.5720000267028809,
+          -0.14900000393390656,
+          0.06400000303983688
+        ],
+        "size_m": [
+          0.029999999329447746,
+          0.06599999964237213,
+          0.20399999618530273
+        ],
+        "label_scores": [
+          [
+            "computer monitor",
+            0.315
+          ],
+          [
+            "monitor stand",
+            0.152
+          ],
+          [
+            "phone",
+            0.104
+          ]
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "type": "removed",
+      "label": "monitor",
+      "text": "The monitor -0.2 m ahead, right (+0.6 m), on the table was removed.",
+      "before": {
+        "center_m": [
+          0.5669999718666077,
+          -0.15800000727176666,
+          -0.2150000035762787
+        ],
+        "size_m": [
+          0.04800000041723251,
+          0.22300000488758087,
+          0.20100000500679016
+        ],
+        "label_scores": [
+          [
+            "hammer",
+            0.133
+          ],
+          [
+            "ladder",
+            0.071
+          ],
+          [
+            "scissors",
+            0.066
+          ]
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "type": "added",
+      "label": "light yogurt",
+      "text": "A light yogurt appeared 0.3 m ahead, right (+0.4 m), on the table.",
+      "after": {
+        "center_m": [
+          0.3630000054836273,
+          -0.13099999725818634,
+          0.289000004529953
+        ],
+        "size_m": [
+          0.04899999871850014,
+          0.16300000250339508,
+          0.12800000607967377
+        ],
+        "label_scores": [
+          [
+            "chewing gum pack",
+            0.314
+          ],
+          [
+            "packet",
+            0.154
+          ],
+          [
+            "tape",
+            0.098
+          ]
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "type": "added",
+      "label": "wallet",
+      "text": "A wallet appeared -0.2 m ahead, centre (+0.2 m), on the table.",
+      "after": {
+        "center_m": [
+          0.16300000250339508,
+          -0.07400000095367432,
+          -0.20800000429153442
+        ],
+        "size_m": [
+          0.07999999821186066,
+          0.014999999664723873,
+          0.08500000089406967
+        ],
+        "label_scores": [
+          [
+            "handbag",
+            0.346
+          ],
+          [
+            "packet",
+            0.134
+          ],
+          [
+            "small box",
+            0.081
+          ]
+        ]
+      }
+    }
+  ],
+  "settings": {
+    "before": "data/set2/before.mp4",
+    "after": "data/set2/after.mp4",
+    "out": "results/table2",
+    "frames": 20,
+    "model": "depth-anything/DA3-LARGE-1.1",
+    "scale": 1.158599615097046,
+    "stride": 2,
+    "conf_pct": 30,
+    "tau_abs": 0.020201404094696045,
+    "tau_rel": 0.05,
+    "namer": "vlm",
+    "app_pct": 0,
+    "min_free": 2.0,
+    "min_votes": 2,
+    "free_ratio": 0.7,
+    "voxel": 0.012120842456817627,
+    "min_voxels": 25,
+    "min_frames": 2,
+    "min_extent": 0.030302106142044066,
+    "max_objects": 12,
+    "match_sim": 0.7,
+    "conf_thr": 3.7093400955200195,
+    "has_floor": true
+  }
+}

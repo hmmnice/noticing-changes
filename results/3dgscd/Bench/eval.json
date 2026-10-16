@@ -1,0 +1,256 @@
+{
+  "scene": "Bench",
+  "mean_iou": 0.331942146484636,
+  "views": [
+    {
+      "view": "frame_00036.png",
+      "iou": 0.2515928515928516,
+      "precision": 0.8942281137807235,
+      "recall": 0.2593096820693521
+    },
+    {
+      "view": "frame_00040.png",
+      "iou": 0.43041978148361126,
+      "precision": 0.9568552253116012,
+      "recall": 0.43893857205688314
+    },
+    {
+      "view": "frame_00044.png",
+      "iou": 0.4794995128137711,
+      "precision": 0.9243589743589744,
+      "recall": 0.4990824211204121
+    },
+    {
+      "view": "frame_00048.png",
+      "iou": 0.16625644004830992,
+      "precision": 0.6962227912932138,
+      "recall": 0.1792602116506775
+    }
+  ],
+  "changes": [
+    {
+      "id": 1,
+      "type": "removed",
+      "label": "candy",
+      "text": "The candy 0.1 m ahead, centre (+0.3 m), on the table was removed.",
+      "before": {
+        "center_m": [
+          0.2619999945163727,
+          -0.04800000041723251,
+          0.0689999982714653
+        ],
+        "size_m": [
+          0.24899999797344208,
+          0.028999999165534973,
+          0.27300000190734863
+        ],
+        "label_scores": [
+          [
+            "chewing gum pack",
+            0.944
+          ],
+          [
+            "packet",
+            0.022
+          ],
+          [
+            "tissue box",
+            0.005
+          ]
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "type": "removed",
+      "label": "gum",
+      "text": "The gum 0.2 m ahead, left (-0.3 m), on the table was removed.",
+      "before": {
+        "center_m": [
+          -0.34200000762939453,
+          -0.08799999952316284,
+          0.23499999940395355
+        ],
+        "size_m": [
+          0.08399999886751175,
+          0.10700000077486038,
+          0.1379999965429306
+        ],
+        "label_scores": [
+          [
+            "chewing gum pack",
+            0.841
+          ],
+          [
+            "jar of mints",
+            0.092
+          ],
+          [
+            "plastic tub",
+            0.014
+          ]
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "type": "removed",
+      "label": "battery",
+      "text": "The battery 0.2 m ahead, centre (-0.1 m), on the table was removed.",
+      "before": {
+        "center_m": [
+          -0.11400000005960464,
+          -0.05000000074505806,
+          0.21199999749660492
+        ],
+        "size_m": [
+          0.10499999672174454,
+          0.024000000208616257,
+          0.11599999666213989
+        ],
+        "label_scores": [
+          [
+            "chewing gum pack",
+            0.727
+          ],
+          [
+            "packet",
+            0.088
+          ],
+          [
+            "plastic tub",
+            0.047
+          ]
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "type": "removed",
+      "label": "packet",
+      "text": "The packet 0.0 m ahead, centre (-0.2 m), on the table was removed.",
+      "before": {
+        "center_m": [
+          -0.20800000429153442,
+          -0.04899999871850014,
+          0.03099999949336052
+        ],
+        "size_m": [
+          0.12300000339746475,
+          0.017999999225139618,
+          0.1289999932050705
+        ],
+        "label_scores": [
+          [
+            "chewing gum pack",
+            0.956
+          ],
+          [
+            "packet",
+            0.038
+          ],
+          [
+            "tissue box",
+            0.004
+          ]
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "type": "removed",
+      "label": "gum",
+      "text": "The gum -0.1 m ahead, centre (+0.0 m), on the table was removed.",
+      "before": {
+        "center_m": [
+          0.039000000804662704,
+          -0.04500000178813934,
+          -0.09099999815225601
+        ],
+        "size_m": [
+          0.125,
+          0.013000000268220901,
+          0.1120000034570694
+        ],
+        "label_scores": [
+          [
+            "chewing gum pack",
+            0.97
+          ],
+          [
+            "tissue box",
+            0.01
+          ],
+          [
+            "packet",
+            0.008
+          ]
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "type": "added",
+      "label": "gum",
+      "text": "A gum appeared 0.3 m ahead, centre (-0.0 m), on the table.",
+      "after": {
+        "center_m": [
+          -0.03400000184774399,
+          -0.05400000140070915,
+          0.33399999141693115
+        ],
+        "size_m": [
+          0.24199999868869781,
+          0.012000000104308128,
+          0.11800000071525574
+        ],
+        "label_scores": [
+          [
+            "skateboard",
+            0.83
+          ],
+          [
+            "yoga mat",
+            0.096
+          ],
+          [
+            "mat",
+            0.013
+          ]
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "type": "added",
+      "label": "fomapa",
+      "text": "A fomapa appeared -0.2 m ahead, centre (+0.2 m), on the table.",
+      "after": {
+        "center_m": [
+          0.20900000631809235,
+          -0.054999999701976776,
+          -0.21799999475479126
+        ],
+        "size_m": [
+          0.07400000095367432,
+          0.03400000184774399,
+          0.09399999678134918
+        ],
+        "label_scores": [
+          [
+            "packet",
+            0.151
+          ],
+          [
+            "container",
+            0.142
+          ],
+          [
+            "small box",
+            0.14
+          ]
+        ]
+      }
+    }
+  ]
+}
